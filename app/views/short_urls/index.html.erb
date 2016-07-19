@@ -1,0 +1,7 @@
+<h1>Rails Url Shortener</h1>
+   <%= form_for @short_url do |f| %>
+       <%= f.label :original_url, 'Url to shorten:' %>
+       <%= f.text_field :original_url %>
+       <br>
+       <%= f.submit %>
+   <% end %>
